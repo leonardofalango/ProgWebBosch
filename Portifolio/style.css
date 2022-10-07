@@ -1,0 +1,92 @@
+body{
+    color: rgb(241, 233, 217);
+}
+#color{
+    color: rgb(241, 233, 217);
+}
+
+#drop{
+    list-style: none;
+    list-style-type: none;
+    -webkit-appearance: none;
+    display: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#case{
+    width: 20rem;
+
+}
+
+#container-case{
+    border-radius: 15px;
+    color: #333;
+}
+
+
+
+h1{
+    color: #333;
+}
+h5{
+    text-align: center;
+}
+
+
+
+.f-right{
+    float: right;
+}
+
+
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+#myHeader{
+    background-color: #333;
+}
+
+
+
+
+.header-top {
+    background: #333;
+    height: 340px;
+    color: #f1f1f1;
+}
+.margin{
+    margin-top: 100px;
+}
+
+
+.sticky {
+    transition: all 0.3s;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    width: 100%
+}
+
+.show{
+    opacity: 1!important;
+}
+
+
+
+#id{
+    background-color: aqua;
+}
+
+#icon{
+    border-radius: 10rem;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+}
+#icon:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);   
+}

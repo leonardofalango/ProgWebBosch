@@ -1,0 +1,51 @@
+body{
+    color: #000000!important;
+}
+.card{
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-transition: all 0.3s;
+    overflow: hidden;
+    -moz-transition: all 0.3s;
+}
+
+.card:hover{
+    -webkit-transform: scale(1.05);
+    -webkit-box-shadow: 0 5px 25px 0 rgb(0,0,0);
+}
+
+#shadow{
+    background-color: rgba(110,110,110,0.8);
+    -webkit-box-shadow: 0 5px 25px 0 rgb(0,0,0);
+}
+
+ul{
+    list-style: none;
+}
+
+#white{
+    color: azure;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+#white:hover{
+    color: #000;
+}
+
+
+.card-header{
+    background-color: rgba(120,120,120,0.8);
+    color: aliceblue;
+}
+
+.carousel .card-img{
+    height: 500px;
+    width: 750px;
+}
+
+p{
+    font-family: monospace;
+    font-size: 20px;
+    text-decoration:solid;
+}

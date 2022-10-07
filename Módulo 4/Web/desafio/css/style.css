@@ -1,0 +1,160 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(150,57,0);
+    background: linear-gradient(90deg, rgba(150,57,0,1) 0%, rgba(255,99,0,1) 23%, rgba(255,106,0,1) 53%, rgb(253, 143, 18) 75%);
+}
+
+header{
+    background-color: rgb(18, 96, 206);
+    width: 97.5%;
+    height: 90px;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.menu{
+    overflow: hidden;
+    width: auto;
+    float: right;
+    justify-content: space-between;
+    height: 80%;
+    display: flex;
+    margin-top: 0.3%;
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+.contato{
+list-style:none;
+border:1px solid #c0c0c0;
+float:left;
+}
+.contato li{
+position:relative;
+float:left;
+border-right:1px solid #c0c0c0;
+}
+.contato li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+.contato{
+    background-color: rgb(100,100,100);
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    margin-right: 10px;
+}
+.contato li :hover{
+background:#333;
+color:#fff;
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
+.contato li ul{
+    display: none;
+}
+.contato li:hover ul, .menu li.over ul{display:block;}
+.contato li ul li{
+border:1px solid #c0c0c0;
+display:block;
+width:150px;
+}
+
+
+
+
+
+
+
+.comprar{
+    background-color: rgb(100,100,100);
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    margin-right: 10px;
+}
+
+.sobre{
+    background-color: rgb(100,100,100);
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    margin-right: 10px;
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+a:hover{
+    color: black;
+}
+
+main{
+    font-family: 'Palette Mosaic', cursive;
+    margin: 50px;
+    padding-bottom: 0px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    font-size: 32px;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: rgb(110,110,110);
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+
+.logo{
+    position: absolute;
+    left: 3%;
+    top: 1%;
+    width: 10%;
+    height: 100px;
+}
+
+
+img{
+    border-radius: 15px;
+    width: 380px;
+    height: 500px;
+}
+
+.zoom {
+	overflow: hidden;
+}
+
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}

@@ -1,0 +1,102 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image:url("img/background.png");
+    background-attachment : scroll;
+    background-position: center center;
+}
+
+header{
+    background-color: rgb(110,110,110);
+    width: 97.5%;
+    height: 50px;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+main{
+    background-color: rgb(170,170,170);
+    margin: 25px;
+    position: relative;
+    border-radius: 15px;
+    padding-bottom: 25px;
+    display: flex;
+}
+nav{
+    position: relative;
+    background-color: rgb(110,110,110);
+    width: 15%;
+    height: 300px;
+    border-radius: 15px;
+    font-size: 25px;
+    vertical-align: middle;
+    margin: auto;    
+
+}
+
+article{
+    background-color: rgb(110,110,110);
+    height: 300px;
+    width: 65%;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+    vertical-align: middle;
+    margin: auto;
+}
+
+section{
+    background-color: rgb(170,170,170);
+    border-radius: 15px;
+    margin: 27px;
+    height: 27%;
+    font-size: 30px;
+}
+
+aside{
+    position: relative;
+    background-color: rgb(110,110,110);
+    width: 15%;
+    height: 300px;
+    border-radius: 15px;
+    font-size: 25px;
+    padding-left: 25px;
+    float: right;
+    margin: auto;
+    font-size: 30px;
+
+}
+
+figure{
+    margin-left: 0px;
+    background-color: rgb(170,170,170);
+    margin-right: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(110,110,110);
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+details{
+    background-color: rgb(170,170,170);
+    margin-right: 25px;
+    border-radius: 15px;
+    width: auto;
+    height: 150px;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+

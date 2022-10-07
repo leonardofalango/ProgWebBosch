@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial | Leonardo Falango</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#vermelho").click(function(){
+                $(".um").removeClass('alert-dark alert-danger alert-success alert-warning').addClass('alert-danger');
+                $("#alerta").html("Perigo!");
+            })
+            $("#amarelo").click(function(){
+                $(".um").removeClass('alert-dark alert-danger alert-success alert-warning').addClass('alert-warning');
+                $("#alerta").html("Cuidado!");
+            })
+            $("#verde").click(function(){
+                $(".um").removeClass('alert-dark alert-danger alert-success alert-warning').addClass('alert-success');
+                $("#alerta").html("Verde!");
+            })
+            $("#alerta").click(function(){
+                $(".um").removeClass('alert-dark alert-danger alert-success alert-warning').addClass('alert-dark');
+                $("#alerta").html("Alerta!");
+            })
+        });
+    </script>
+
+</head>
+<body>
+
+    <div class="container" style="margin-top: 100px">
+        <div class="row" style="margin-bottom: 50px;">
+            <button type="button" class="btn btn-outline-danger btn-lg col-4" id="vermelho">
+                Vermei
+            </button>
+
+            <button type="button" class="btn btn-outline-warning btn-lg col-4" id="amarelo">
+                Mirelo
+            </button>
+
+            <button type="button" class="btn btn-outline-success btn-lg col-4" id="verde">
+                Verdin
+            </button>  
+        </div>
+
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="um alert alert-dark col-8" role="alert" id="alerta">Alerta!</div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

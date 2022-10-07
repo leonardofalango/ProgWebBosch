@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+    <title>Roulette | Leonardo Falango</title>
+    <link rel="stylesheet" type="text/css"  href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Red+Hat+Mono&display=swap" rel="stylesheet">
+
+    <script type="text/javascript">
+        function slide1(){
+        document.getElementById('id').src="../img/terrorist.png";
+        setTimeout("slide2()", 1000)
+        }
+        
+        function slide2(){
+        document.getElementById('id').src="../img/ct.png";
+        setTimeout("slide3()", 1000)
+        }
+        
+        function slide3(){
+        document.getElementById('id').src="../img/logomarca.png";
+        setTimeout("slide1()", 1000)
+        }
+    </script>
+
+</head>
+<body onload="slide1()">
+	<nav>
+		<ul class="menu">
+			<img src="../img/logomarca.png" alt="logo">
+					<li><a href="#">Games</a>
+						<ul>
+							<li><a href="roleta.html">Roulette</a></li>
+							<li><a href="upgrade.html">Upgrade</a></li>
+							<li><a href="games.html">Zen</a></li>
+						</ul>
+					</li>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="contato.html">Contato</a></li>
+					
+		</ul>
+	</nav>
+	<main>
+        <titulo> Roleta<br></titulo>
+    </main>
+    <div class="roleta" onload="slide1()">
+        <a href="#"><img id="id" height="300px"></a>
+    </div>
+    <main>
+        <table>
+            <tr>
+                <td> 
+                    <div class="button">R$<input type="text" id="real"></div>
+                </td>
+                <td>
+                    <div class="button"><a href="https://steamcommunity.com/openid/login?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.return_to=https%3A%2F%2Fapi.entertoroll.com%2Fauth%2Fsteam%2Freturn&openid.realm=https%3A%2F%2Fapi.entertoroll.com">Roletar</a></div>
+                </td>
+            </tr>
+        </table>
+       
+        <table class="roulette">
+            <thead>
+                <th>
+                    Win 2x<br>
+                    <img src="../img/ct.png" alt="counterterrorists">
+                    <img src="../img/terrorist.png" alt="terrorist">
+                </th>
+                <th>
+                    Win 7x<br>
+                    <img src="../img/logomarca.png" alt="logo">
+                </th>
+            </thead>
+            <tr>
+                <td>
+                    Player1 | R$1000,00
+                </td>
+                <td>
+                    Player9909 | R$150,00
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    NicknameReal | R$700,00
+                </td>
+                <td>
+                    OricoPodre | R$150,00
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Nickname3 | R$550,00
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Burrito | R$500,00
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Honda CivicTunado | R$300,00
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    SnupDogg | R$50,00
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        Compras somente em dinheiro, nao devolvemos seu dinheiro!<br>Site meremente ilustrativo<br>Nenhum direito reservado®
+        <div class="footericons">
+            <a href="https://api.whatsapp.com/send?phone=5541987141533&text=Oi%20Gigante%20Falas!%20Como%20voc%C3%AA%20est%C3%A1%3F" id="zap"><img src="../img/whatsapp.png" atl="Whastapp_logo"></a>
+            <a href="https://pt-br.facebook.com/leo.falango" id="face"><img src="../img/facebook.png" alt="Facebook_logo"></a>
+            <a href="https://twitter.com/GrandeFalas" id="twitter"><img src="../img/twitter.png" alt="Twitter_logo"></a>
+        </div>
+    </footer>
+        
+</body>
+</html>

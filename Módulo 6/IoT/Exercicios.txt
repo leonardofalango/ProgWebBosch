@@ -1,0 +1,106 @@
+Leonardo Scanavacca Falango - Web 2022
+João/Daniel - 06/06/2022
+
+1. Liste três benefícios que a criação da computação em nuvem trouxe.
+
+R. 	Prevenção de perda de dados. Como os dados são armazenados em um local mais adequado, são muito menos sucetíveis a perda de dados.
+	Redução de custos. Com a computação em nuvem, ficou desnecessário um investimento em uma estrutura física e equipamentos próprios
+especializados. Também não há necessidade de muito investimento para adquirir, instalar e manter sofwares de úlitma geração.
+	Mobilidade. Qualquer dispositivo com acesso a internet pode acessar os dados que estão na nuvem.
+
+
+
+
+
+2. Pesquisar e explicar de forma resumida qual seria a função do Azure IoT Hub.
+
+R.	O Hub IoT do Azure é um serviço gerenciado hospedado na nuvem que atua como um hub central de mensagens para comunicação entre um
+aplicativo de IoT e os dispositivos anexados a ele. Permite a comunicação Device para Cloud e a comunicção da Cloud para device.
+
+
+
+3. Pesquisar e explicar a função da Cloud Stream Analytics.
+
+R.
+
+
+
+
+4. Quais são os três tipos de nuvem? Descreva-os.
+
+R.	Pública, privada e hibrida. 
+	Nuvem pública serve para as empresas que querem evitar uma arquitetura centralizada. Todos os dados da
+várias empresas estão alocados em uma mesma maquina. 
+	Nuvem privada os serviços são prestdos pela própria empresa, entção em um servidor de Cloud privada
+de uma empresa, só possui dados daquela empresa.
+	Nuvem híbrida é a união dos dois serviços acima. Possui dados confidenciais  segurança e possui a incramentação de uma nuvem pública
+para mais armazenamento e processamento.
+
+
+
+5. Os serviços de banco de dados se encontram em qual tipo?
+
+R. 	IaaS. O mais importante para o banco de dados é a infraestrutura dos datacenters e o processamento, pelo banco de dados exigir basicamente
+isso, o serviço de Infraestrutura é essencial.
+
+
+
+
+6. Pesquise três serviços ofertados pela Azure e descreva-os
+
+R.	Azure IoT Edge - Atrelado ao IoT Hub, é um sistema que possibilita o processamento de dados nas bordas, gerando assim uma resposta mais
+rápida, usados em modelos IA como exemplo um modelo preditivo em uma câmera de fábrica para testar o controle de qualidade e quando for detectado
+um problema, o IoT Edge possa enviar alertas e processar os dados.
+	Azure IoT Central - Acelera o desenvolvimento através de uma plataforma de display de informações. Gerencia dispositivos e também limita
+ou não a vizualização do usuário.
+	Azure Digital Twins - Cria dispositivos gêmeos para gerenciar a segurança da aplicação. Vincula os dispositivos simulados com reais.
+
+
+
+7. Pesquise três serviços ofertados pela AWS e descreva-os.
+
+R.	AWS IoT Core. Este serviço permite que diversos dispositivos sejam conectados de forma segura e interajam com os demais serviços
+da AWS, inclusive permite que essas mensagens sejam roteadas para outros endpoints. Sem que você tenha que provisionar infraestrutura, toda
+a arquitetura por trás desta arquitetura já vem pronta.
+	AWS IoT Device Management. Esse serviço provém rastreamento, monitoramento e, gerenciamento de frotas de dispositivos conectados.
+	AWS IoT Events. Este serviço funciona de forma que ao você selecionar o tipo de dados quqe precisa ser analisado, é possível adicionar
+instruções de código if/else e gerar alertas personalizados.
+
+
+
+8. Classifique os serviços listados anteriormente
+
+R.	Azure IoT Edge - IaaS
+	Azure IoT Central - SaaS
+	Azure Digital Twins - SaaS
+	AWS IoT Core - PaaS
+	AWS IoT Device Management - PaaS
+	AWS IoT Events - IaaS
+
+
+
+9. Qual o objetivo principal da Cloud Onboarding?
+
+R.	Incorporar o Cloud Computing de forma segura nas empresas, padronizar o desenvolvimento e a arquitetura e também aumentar a segurança.
+
+
+
+
+
+
+10. Tente descrever o processo efetuado no vídeo a seguir e também na página:
+https://www.youtube.com/watch?v=mTHMkqnt_Z0
+https://itsmerajasekar.medium.com/getting-started-with-iot-using-esp8266-node-mcu-and-azure-iot-hub-37a3ca03dd56
+
+R.
+
+
+
+
+
+
+
+
+
+
+

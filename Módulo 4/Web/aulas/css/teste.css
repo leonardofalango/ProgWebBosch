@@ -1,0 +1,5 @@
+body { background-color: #ffffc9 }
+a:link { color: blue } /* links não visitados */
+a:visited { color: purple } /* links visitados */
+a:hover { font-weight: bold } /* user hovers */
+a:active { color: lime } /* links ativos */

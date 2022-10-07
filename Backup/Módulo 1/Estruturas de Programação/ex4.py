@@ -1,0 +1,34 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jan 26 09:43:26 2022
+
+@author: DISRCT
+"""
+
+mesesb = []
+mesesb.append("janeiro")
+mesesb.append("fevereiro")
+mesesb.append("março")
+mesesb.append("abril")
+mesesb.append("maio")
+mesesb.append("junho")
+mesesb.append("julho")
+mesesb.append("agosto")
+mesesb.append("setembro")
+mesesb.append("outubro")
+mesesb.append("novembro")
+mesesb.append("dezembro")
+
+temperatura = []
+for i in range(12):
+    try:
+        temp = float(input(f"Entre com a temperatura média de {mesesb[i]}: "))
+    except ValueError:
+        print("ERRO. Apenas números são aceitos.")
+        break
+    temperatura.append(temp)
+media = sum(temperatura) / len(temperatura)
+for i in range(len(temperatura)):
+    if temperatura[i] > media:
+        print(f"O mês de {mesesb[i]} teve média de temperatura maior que a média anual({media}): {temperatura[i]}")
+    
